@@ -1,12 +1,16 @@
 import React from 'react';
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
     return (
-      <nav className="navigation">
-        <a className="m-3" href="/">About Me</a>
-        <a className="m-3" href="/">Portfolio</a>
-        <a className="m-3" href="/">Contact</a>
-        <a className="m-3" href="/">Resume</a>
+      <nav className="navigation col-4 ">
+        <a className="m-3" href="#About"
+        onClick={() => handlePageChange('About')}>About Me</a>
+        <a className="m-3" href="#Portfolio"
+        onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
+        <a className="m-3" href="#Contact"
+        onClick={() => handlePageChange('Contact')}>Contact</a>
+        <a className="m-3" href="#Resume"
+        onClick={() => handlePageChange('Resume')}>Resume</a>
       </nav>
     );
   }
