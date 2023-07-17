@@ -2,16 +2,25 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-      <nav className="navigation col-4 ">
-        <a className="m-3" href="#About"
-        onClick={() => handlePageChange('About')}>About Me</a>
-        <a className="m-3" href="#Portfolio"
-        onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
-        <a className="m-3" href="#Contact"
-        onClick={() => handlePageChange('Contact')}>Contact</a>
-        <a className="m-3" href="#Resume"
-        onClick={() => handlePageChange('Resume')}>Resume</a>
+      <nav className="d-flex align-items-end mb-3 mx-4">
+        <ul className="nav nav-underline navigation">
+          <li className="nav-item">
+            <a className="nav-link" href="#About"
+            onClick={() => handlePageChange('About')}>About Me</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#Portfolio"
+            onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
+          </li>
+            <a className="nav-link" href="#Contact"
+            onClick={() => handlePageChange('Contact')}>Contact</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#Resume"
+            onClick={() => handlePageChange('Resume')}>Resume</a>
+          </li>   
+        </ul>
       </nav>
+      
     );
   }
   

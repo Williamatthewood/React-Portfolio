@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="row">
+      <div className="banner d-flex justify-content-between">
         <Header />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
