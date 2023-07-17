@@ -1,16 +1,21 @@
 import React from 'react';
 
 export default function About() {
+
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <h2 className="d-flex flex-start mx-5 my-2 section-title">About Me</h2>
+      <img src='./images/avatar.jpeg'/>
+      <p className="paragraph my-3 mx-5">
+        I am currently finishing my Full Stack Web Development certification at SMU. I am experience building applications using the MERN stack and also have experience using Angular and MySQL. 
+        I created this portfolio to showcase the projects I've built during my education. 
+        <br/>
+        <br/>
+        In addition to skills as a full stack developer, I have a background in music composition, audio engineering, and video game development. The tools I have used to develop these skills include, Pro Tools, Logic Pro, Sibelius, and Unity. 
+        <br/>
+        <br/>
+        I am looking forward to developing new applications and projects of all kind!
+        <br/>
       </p>
     </div>
   );

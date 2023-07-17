@@ -9,7 +9,9 @@
   text-align: center;
   background-color: #EDF2F4 ;
 }
-
+.App h1 {
+  font-size: 300%;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -58,4 +60,14 @@
 .nav-link:focus,
 .nav-link:hover {
   color: var(--secondary)!important;
+}
+
+.section-title,
+.paragraph {
+  color: var(--primary-dark);
+}
+
+.paragraph {
+  text-align: left;
+  font-size: large;
 }
