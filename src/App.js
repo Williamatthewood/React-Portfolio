@@ -29,7 +29,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="App">
+    <div className="App min-vh-100">
       <div className="banner d-flex justify-content-between">
         <Header />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />

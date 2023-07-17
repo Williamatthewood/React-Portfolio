@@ -6,8 +6,8 @@ export default function Project(props) {
                 <h4 className="card-title">{project.name}</h4>
                 <img src={project.image} className="card-img-top" alt="application thumbnail" />
                 <div className="card-body">
-                    <a href={project.appLink} className="card-link">Application</a>
-                    <a href={project.gitHubLink} className="card-link">GitHub</a>
+                    <a href={project.appLink} className="card-link" target="_blank">Application</a>
+                    <a href={project.gitHubLink} className="card-link" target="_blank">GitHub</a>
                 </div>
             </div>
     ))

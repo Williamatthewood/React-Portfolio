@@ -47,6 +47,7 @@ export default function Portfolio() {
     },
     
   ]
+
   return (
     <div>
       <h1 className="d-flex flex-start mx-5 my-2">Projects</h1>

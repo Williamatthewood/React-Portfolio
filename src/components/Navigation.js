@@ -1,6 +1,12 @@
 import React from 'react';
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({ handlePageChange }) {
+
+  const styles = {
+    navStyle: {
+      color: '#EDF2F4'
+    }
+  }
     return (
       <nav className="d-flex align-items-end mb-3 mx-4">
         <ul className="nav nav-underline navigation">
