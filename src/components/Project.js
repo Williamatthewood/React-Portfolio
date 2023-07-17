@@ -1,9 +1,11 @@
 import React from 'react';
 
 export default function Project(props) {
-    return (
-        <div>
-            <p>This works! {props.projects[0].name}</p>
+    return props.projects.map((project, i) => (
+        <div key={i}>
+            <div key={project.id}>
+                <p>{project.name}</p>
+            </div>
         </div>
-    )
+    ))
 }
