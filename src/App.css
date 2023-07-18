@@ -5,10 +5,10 @@
   --secondary: #8D99AE;
   --accent: #EFF6E0;
 }
-.App {
+/* .App {
   text-align: center;
   background-color: #EDF2F4 ;
-}
+} */
 .App h1 {
   font-size: 300%;
 }
