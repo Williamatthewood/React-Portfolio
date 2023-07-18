@@ -71,3 +71,16 @@
   text-align: left;
   font-size: large;
 }
+
+.btn {
+  background-color: var(--primary-dark)!important;
+  color: var(--primary-light)!important;
+}
+
+.form-label {
+  font-weight: bolder;
+}
+
+#contactCard {
+  background: var(--secondary);
+}
