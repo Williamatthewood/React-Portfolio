@@ -102,6 +102,10 @@
   color: var(--primary-dark);
 }
 
+.card-title {
+  color: var(--primary-light)!important;
+}
+
 #contactCard,
 #projectCard {
   background: var(--secondary);
