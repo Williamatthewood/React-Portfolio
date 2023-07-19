@@ -8,11 +8,12 @@ export default function About() {
       <hr className="hr"></hr>
       <div className="container row">
         <div className="col-md-4">
-          <img className="img-fluid" src='./images/avatar.jpeg'/>
+          <img className="img-fluid m-2" src='./images/avatar.jpeg'/>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 my-2">
+          <br />
           <p className="paragraph my-3 mx-5">
-            I am currently finishing my Full Stack Web Development certification at SMU. I am experience building applications using the MERN stack and also have experience using Angular and MySQL. 
+            I am currently finishing my Full Stack Web Development certification at SMU. I am experience building applications using the MERN stack and also have experience using Angular and SQL/Sequelize. 
             I created this portfolio to showcase the projects I've built during my education. 
             <br/>
             <br/>

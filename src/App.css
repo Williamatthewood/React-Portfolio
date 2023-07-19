@@ -62,6 +62,16 @@
   color: var(--secondary)!important;
 }
 
+.card-link {
+  color: var(--primary-light);
+  font-weight: bold;
+}
+
+.card-link:focus,
+.card-link:hover {
+  color: var(--accent)!important;
+}
+
 .section-title,
 .paragraph {
   color: var(--primary-dark);
@@ -81,6 +91,7 @@
   font-weight: bolder;
 }
 
-#contactCard {
+#contactCard,
+#projectCard {
   background: var(--secondary);
 }

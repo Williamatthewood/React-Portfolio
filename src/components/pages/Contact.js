@@ -50,6 +50,7 @@ export default function Contact() {
   return (
     <div>
       <h2 className="d-flex flex-start mx-5 my-2 section-title">Contact</h2>
+      <hr className="hr"></hr>
       <div className="container row">
         <form className="col-6 mx-5 mt-2 p-3 card w-50 d" id="contactCard">
           <div className="mb-3">
