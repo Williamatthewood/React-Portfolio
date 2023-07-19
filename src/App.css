@@ -98,6 +98,10 @@
   right:0;
 }
 
+.shared-class {
+  color: var(--primary-dark);
+}
+
 #contactCard,
 #projectCard {
   background: var(--secondary);

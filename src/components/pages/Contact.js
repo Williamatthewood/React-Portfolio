@@ -21,6 +21,10 @@ export default function Contact() {
     } else {
       setMessage(inputValue);
     }
+
+    if (!name || !message) {
+      setErrorMessage('Please complete all fields.');
+    }
   }
 
   const handleUnfocus = (e) => {
