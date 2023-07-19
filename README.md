@@ -2,7 +2,7 @@
 
 ## Description
 
-My developer portfolio with with React. It's a simple, single-page application, leveraging conditional rendering in React for each tab in the navbar. I compiled six of my applications, developed during my time in the SMU Full-stack Web Developer program. Simply click on the navbar to navigate to each section, and all links and buttons should work as expected!
+My developer portfolio made with React. It's a simple, single-page application, leveraging conditional rendering in React for each tab in the navbar. I compiled six of my applications, developed during my time in the SMU Full-stack Web Developer program. Simply click on the navbar to navigate to each section, and all links and buttons should work as expected!
 
 ## Screenshot
 
