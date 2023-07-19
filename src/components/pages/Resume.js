@@ -24,7 +24,12 @@ export default function Resume() {
   ]
   return (
     <div>
-      <h2 className="d-flex flex-start mx-5 my-2 section-title">Resume</h2>
+      <div className='mt-2'>
+        <h2 className="mx-5 mb-2 section-title d-inline">Resume</h2>
+        <span>
+          <a href='./resume.pdf' className='btn' target="_blank">Download</a>
+        </span>
+      </div>
       <hr className='hr'></hr>
       <div className='container row m-4'>
         <div className='col-md-6'>
