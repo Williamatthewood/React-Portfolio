@@ -5,9 +5,12 @@ export default function About() {
   return (
     <div>
       <h2 className="d-flex flex-start mx-5 my-2 section-title">About Me</h2>
+      <hr className="hr"></hr>
       <div className="container row">
-        <img className="col-4" src='./images/avatar.jpeg'/>
-        <div className="col-8">
+        <div className="col-md-4">
+          <img className="img-fluid" src='./images/avatar.jpeg'/>
+        </div>
+        <div className="col-md-8">
           <p className="paragraph my-3 mx-5">
             I am currently finishing my Full Stack Web Development certification at SMU. I am experience building applications using the MERN stack and also have experience using Angular and MySQL. 
             I created this portfolio to showcase the projects I've built during my education. 

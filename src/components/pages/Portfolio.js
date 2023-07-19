@@ -51,6 +51,7 @@ export default function Portfolio() {
   return (
     <div>
       <h2 className="d-flex flex-start mx-5 my-2 section-title">Projects</h2>
+      <hr className="hr"></hr>
       <div className="row d-flex justify-content-evenly">
         <Project projects = {projects} />
       </div>
