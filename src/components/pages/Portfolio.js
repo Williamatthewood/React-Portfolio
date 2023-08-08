@@ -4,18 +4,20 @@ import Project from '../Project';
 export default function Portfolio() {
   const projects = [
     {
+
       id: 0,
+      name: 'Premier Neighborhood Services',
+      appLink: 'https://quiet-escarpment-66655-0aff3ec3178e.herokuapp.com/',
+      gitHubLink: 'https://github.com/JerrickJohnson/Premier_Neighborhood_Services',
+      image: './images/premier-neighborhood-services.png'
+    },
+    
+    {
+      id: 1,
       name: 'Dinner and a Movie',
       appLink: 'https://mvincent15.github.io/Dinner-and-a-Movie/',
       gitHubLink: 'https://github.com/Williamatthewood/Dinner-and-a-Movie',
       image: './images/dinnerAndAMovie.png'
-    },
-    {
-      id: 1,
-      name: 'furfacebook',
-      appLink: 'https://furfacebook-app.herokuapp.com/',
-      gitHubLink: 'https://github.com/Williamatthewood/FurFaceBook',
-      image: './images/furfacebook.png'
     },
     {
       id: 2,
